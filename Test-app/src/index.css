@@ -1,0 +1,16 @@
+body{
+  margin-left: 4rem;
+
+}
+
+.App-logo{
+  width: 100px;
+}
+
+h1{
+  font-size: 7rem;
+}
+ul{
+  font-size: 2rem;
+  margin-left: 6rem;
+}
