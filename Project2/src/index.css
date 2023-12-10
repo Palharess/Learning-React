@@ -1,0 +1,44 @@
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 5px 5px 5px 5px grey;
+  
+}
+
+.nav-ul{
+  list-style-type: none;
+  display: flex;
+  
+}
+
+li{
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.two{
+  justify-self: center ;
+  align-self: center;
+
+}
+
+#footer{
+  background-color: grey;
+}
+
+#big{
+  width: 400px;
+
+}
+
+h1{
+  font-size: 1.6rem;
+}

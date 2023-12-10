@@ -1,0 +1,115 @@
+#root{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+body{
+  background-color: rgb(25, 27, 30);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.profile-img{
+  width: 25rem;
+  border-radius: 5px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  background-color: black;
+}
+
+.info-h1, .info-h4, .info-h5{
+  color: white;
+  text-align: center;
+  
+}
+
+.b-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.button{
+  height: 3.3rem;
+  width: 8.5rem;
+  text-align: center;
+  font-size: 1.2rem;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+}
+
+.fa-linkedin{
+  color: white;
+  font-size: 1.5rem;
+}
+
+#linkedin{
+  background-color: #39A7FF;
+}
+
+#instagram{
+  margin-left: 1rem;
+  color: black;
+}
+
+#instagram:hover{
+  background-color: grey;
+}
+
+#linkedin:hover{
+  background-color: #87C4FF;
+}
+
+.Teste{
+  background-color:   #030e14;
+}
+
+.ab-div, .h-div{
+  padding-top: 1.3rem;
+  padding-left: 3.5rem;
+  
+ 
+}
+
+
+.about-p, .h-p{
+  inline-size: 285px;
+  overflow-wrap: break-word;
+  height: 7.7rem;
+  text-align: justify;
+}
+
+.h-div{
+  padding-top: 0.3rem;
+}
+
+h2,h1{
+  font-weight: bold;
+}
+
+.ic{
+  font-size: 3rem;
+  color: grey;
+}
+
+.ic:hover{
+  color: rgb(67, 67, 67);
+}
+
+.f-div{
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(9, 9, 9);
+  
+}
+
+
+#title{
+  color: #F4DFC8;
+}
+
