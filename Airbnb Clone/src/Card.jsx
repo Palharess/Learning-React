@@ -9,10 +9,13 @@ export default function Card(props){
             <img className='card-img' src={props.img}></img>
             <div className='card-item'>
                 <img src={star} className='star-img'></img>
-                <p className='start-text'>{props.rating}</p>
+                <p className='start-text'>{props.rating}<span className='light'>({props.reviewCount}) •</span></p>
+                <p className='start-text'>{props.location}</p>
+                
             </div>
+            
             <p className='pp'>{props.description}</p>
-            {props.price} 
+            <p className='pp'>From <span className='bold'>${props.price} </span>  / person</p>
         </div>
     );
 }

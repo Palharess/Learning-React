@@ -48,10 +48,6 @@ body{
   margin-left: 5px;
 }
 
-.card-item{
-
-
-}
 
 .star-img{
   height: 14px;
@@ -67,4 +63,10 @@ body{
 
 .p-center{
   max-width: 50%;
+}
+
+.light{
+  color: gray;
+  margin: 0;
+  padding: 0;
 }
